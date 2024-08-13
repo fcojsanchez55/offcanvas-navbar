@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="build/css/custom.css" />
+  </head>
+  <body 
+    style="position: relative;"
+    data-bs-spy="scroll"
+    data-bs-target="#navbarCanvas"
+  >
+    <nav class="navbar bg-body-tertiary fixed-top" id="#navbarCanvas">
+      <div class="container">
+        <i
+          class="bi bi-option navbar-brand"
+          type="button"
+          aria-controls="offcanvasDemo1"
+          data-bs-toggle="offcanvas"
+          data-bs-target="#offcanvasDemo1"
+        ></i>
+      </div>
+    </nav>
+
+    <div class="container">
+        <section id="uno" class="vh-100 pt-5">
+            <h2 class="display-5 my-5">GitHub</h2>
+            <p class="lead">
+                Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                Quasi numquam hic aliquid ipsum est eveniet beatae, accusamus dolore dolorem non.
+            </p>
+        </section>
+        <section id="dos" class="vh-100 pt-5">
+            <h2 class="display-5 my-5">Facebook</h2>
+            <p class="lead">
+                Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                Quasi numquam hic aliquid ipsum est eveniet beatae, accusamus dolore dolorem non.
+            </p>
+        </section>
+        <section id="tres" class="vh-100 pt-5">
+            <h2 class="display-5 my-5">Whatsapp</h2>
+            <p class="lead">
+                Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                Quasi numquam hic aliquid ipsum est eveniet beatae, accusamus dolore dolorem non.
+            </p>
+        </section>
+    </div>
+
+
+    <div class="offcanvas offcanvas-start" tabindex="-1" id="offcanvasDemo1" aria-labelledby="offcanvasDemo1Label">
+        <div class="offcanvas-header">
+          <h5 class="offcanvas-title" id="offcanvasExampleLabel">Offcanvas</h5>
+          <button type="button" class="btn-close" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+        </div>
+        <div class="offcanvas-body">
+          <p class="text-center">
+            Some text as placeholder. In real life you can have the elements you have chosen. Like, text, images, lists, etc.
+          </p>
+          <div class="d-grid gap-2">
+                <button class="btn btn-info-white bg-primary" data-bs-dismiss="offcanvas">
+                   <a href="#uno" class="text-white text-decoration-none">GitHub <i class="bi bi-github text-decoretion-none"></i></a>
+                </button>
+                <button  class="btn btn-info-white bg-primary" data-bs-dismiss="offcanvas">
+                   <a href="#dos" class="text-white text-decoration-none">Facebook <i class="bi bi-facebook"></i></a>
+                </button>
+                <button  class="btn btn-info-white bg-primary" data-bs-dismiss="offcanvas">
+                   <a href="#tres" class="text-white text-decoration-none"> Whatsapp <i class="bi bi-whatsapp"></i></a>
+                </button>
+          </div>
+        </div>
+      </div>
+
+    <script src="js/bootstrap.js"></script>
+  </body>
+</html>
